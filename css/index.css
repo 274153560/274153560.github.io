@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body{
+    background:#000;
+}
+.myself {
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    text-align:center;
+    color:#fff;
+    font-size:48px;
+    font-family: 'Fruktur', cursive;
+    text-shadow: 1px  1px 1px #ccc,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #ff00de,
+    0 0 70px #ff00de,
+    0 0 80px #ff00de,
+    0 0 100px #ff00de,
+    0 0 150px #ff00de;
+}
+.tip {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.nav {
+    width: 800px;
+    height: 42px;
+    margin: 100px auto;
+    background: url(../images/rss.png) right center no-repeat;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.nav li {
+    width: 83px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.nav li a {
+    color: #000;
+    text-decoration: none;
+}
+.nav span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 83px;
+    height: 42px;
+    background: url(../images/cloud.gif) no-repeat;
+}
+ul {
+    position: relative;
+}

@@ -1,0 +1,224 @@
+.layout {
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    height: 2000px;
+    background: #eee;
+    margin: 0 auto;
+}
+.header {
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    height: 40px;
+    background-color:rgba(233,35,34,0);
+    position: fixed;
+    z-index: 999;
+}
+.header .logo {
+    width: 56px;
+    height: 30px;
+    display: block;
+    background: url("../images/jd-sprites.png") 0 -108px;
+    position: absolute;
+    background-size: 200px 200px;
+    top:7px;
+    left:5px ;
+}
+.header .search {
+    width: 100%;
+    height: 100%;
+    padding: 0 50px 0 66px;
+}
+.header .search::before {
+    content: "";
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    background: url("../images/jd-sprites.png") -60px -109px;
+    background-size: 200px 200px;
+    top: 10px;
+    left: 75px;
+}
+.header .search input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    display: block;
+    margin-top: 4px;
+    padding-left: 30px;
+}
+.header .login {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.banner ul:nth-of-type(1) {
+    width: 800%;
+    position: relative;
+    left: 0;
+}
+.banner ul:nth-of-type(1)>li {
+    width: 12.5%;
+    float: left;
+}
+.banner ul:nth-of-type(1)>li img {
+    width: 100%;
+    display: block;
+}
+.banner ul:nth-of-type(2) {
+    width: 150px;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    margin-left: -80px;
+}
+.banner ul:nth-of-type(2)>li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+.banner ul:nth-of-type(2)>li:nth-of-type(1) {
+    margin-left: 0;
+}
+.banner ul:nth-of-type(2)>li.active {
+    background-color: #fff;
+}
+.nav {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+}
+.nav ul {
+    width: 100%;
+}
+.nav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+}
+.nav ul li a {
+    display: block;
+}
+.nav ul li img {
+    width:50px;
+}
+.nav ul li p {
+    line-height: 25px;
+}
+.products {
+
+}
+.jd_sp {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+    margin-top: 10px;
+}
+.tip {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    color: #666;
+    padding-left: 30px;
+}
+.tip h3 {
+    position: relative;
+}
+.tip h3::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 12px;
+    background-color: #e92322;
+    top: 9px;
+    left: -6px;
+}
+.a1 {
+    width: 50%;
+    display: block;
+}
+.a1 > img {
+    width: 100%;
+    display: block;
+}
+.b_left {
+    border-left: 1px solid #ccc;
+}
+.b_right {
+    border-right: 1px solid #ccc;
+}
+.b_bottom {
+    border-bottom: 1px solid #ccc;
+}
+.ck {
+    width: 100%;
+    background-color: #fff;
+}
+.clock {
+    width: 30px;
+    height: 30px;
+    background: url("../uploads/seckill-icon.png")no-repeat center 3px;
+    background-size:16px 20px;
+}
+.ck .text {
+    color: #e92322;
+}
+.ck .tip {
+    padding-left: 10px;
+    border-bottom: none;
+    margin-top: 10px;
+}
+.timer {
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.timer span {
+    width: 10px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    display: block;
+    float: left;
+    background-color: #333;
+    margin-left: 5px;
+    color: #fff;
+}
+.timer span:nth-of-type(3n) {
+    background-color: #fff;
+    color: #333
+}
+.so_on {
+    margin-right: 10px;
+}
+.ckImg {
+    width: 100%;
+    padding: 20px;
+}
+.ckImg li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.ckImg li img {
+    width: 60%;
+}
+.ckImg li p:nth-of-type(1) {
+    color: #e92322;
+}
+.ckImg li p:nth-of-type(2) {
+    text-decoration: line-through;
+}

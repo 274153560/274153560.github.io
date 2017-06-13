@@ -1,0 +1,38 @@
+body,form,input,h1,h2,h3,ul,li,a,img,div,p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    font-family: "微软雅黑",sans-serif;
+    font-size: 13px;
+}
+input {
+    outline: none;
+    border: none;
+    border:1px solid #ccc
+}
+ul {
+    list-style: none;
+}
+a,
+a:hover {
+    text-decoration: none;
+    color: #666;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    display: block;
+}
